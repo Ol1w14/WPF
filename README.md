@@ -1,36 +1,39 @@
-MONEYMANAGER Centrum zarządzania finansami osobistymi
-OPIS PROJEKTU
+# 🧮 Kalkulator
 
-MoneyManager to aplikacja desktopowa do zarządzania finansami osobistymi, napisana w języku C# z wykorzystaniem technologii WPF (Windows Presentation Foundation).
+Prosty kalkulator desktopowy napisany w języku **C#** z wykorzystaniem technologii **WPF (Windows Presentation Foundation)**. Aplikacja posiada nowoczesny, ciemny interfejs graficzny i umożliwia wykonywanie podstawowych działań matematycznych.
 
-Program umożliwia ewidencjonowanie przychodów i wydatków, analizowanie sytuacji finansowej, filtrowanie historii transakcji oraz kontrolowanie miesięcznych budżetów.
+## ✨ Funkcjonalności
 
-Aplikacja posiada nowoczesny interfejs w ciemnej kolorystyce, zaprojektowany z myślą o czytelności i wygodnej obsłudze.
+- ➕ Dodawanie
+- ➖ Odejmowanie
+- ✖️ Mnożenie
+- ➗ Dzielenie
+- 🔢 Obsługa liczb dziesiętnych
+- ➕➖ Zmiana znaku liczby
+- ⌫ Usuwanie ostatniej cyfry
+- 🧹 Czyszczenie kalkulatora
+- ⚠️ Obsługa błędów, w tym dzielenia przez zero
+- 🇵🇱 Formatowanie liczb zgodne z polskimi ustawieniami regionalnymi
 
-TECHNOLOGIE
-Język programowania: C#
-Interfejs graficzny: WPF
-Język interfejsu: XAML
-Przechowywanie danych: pliki JSON
-Obsługa danych: ObservableCollection, ICollectionView
-Serializacja: System.Text.Json
-Platforma: Windows
-Format kwot i dat: pl-PL
-GŁÓWNE FUNKCJONALNOŚCI
+## 🛠️ Technologie
 
-3.1. Dashboard
+- **C#** – logika aplikacji
+- **WPF** – interfejs graficzny
+- **XAML** – układ okna i style elementów
+- **.NET** – platforma uruchomieniowa
 
-Wyświetlanie całkowitego salda.
-Podsumowanie wszystkich przychodów i wydatków.
-Prezentacja przychodów i wydatków w bieżącym miesiącu.
-Wyświetlanie liczby transakcji.
-Wizualizacja przychodów i wydatków z ostatnich sześciu miesięcy.
-Analiza wydatków według kategorii.
-Raport miesięczny obejmujący przychody, wydatki, bilans i liczbę transakcji.
-Możliwość wyboru miesiąca do analizy.
+## 🖥️ Wygląd aplikacji
 
-3.2. Historia transakcji
+Interfejs wykorzystuje ciemną kolorystykę, czytelny wyświetlacz oraz przyciski wyróżnione kolorami w zależności od ich funkcji.
 
-Dodawanie przychodów i wydatków.
-Szybkie dodawanie przychodu lub wydatku.
-Zwiększanie i zmniejszanie kwoty o 1 zł.
+- ⚫ Ciemnoszare przyciski – cyfry
+- ⚙️ Szare przyciski – funkcje dodatkowe
+- 🟠 Pomarańczowe przyciski – operatory matematyczne
+- 🟢 Zielony przycisk – obliczanie wyniku
+
+## 🚀 Uruchomienie projektu
+
+1. Sklonuj repozytorium:
+
+   ```bash
+   git clone <URL_REPOZYTORIUM>
